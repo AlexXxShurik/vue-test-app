@@ -69,7 +69,6 @@ export default {
       });
     },
     sortedBooks() {
-      // Создаем копию массива для сортировки
       const booksCopy = [...this.filteredBooks];
       return booksCopy.sort((a, b) => {
         if (this.sortOrder === 'asc') {
